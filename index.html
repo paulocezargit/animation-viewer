@@ -4,14 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Animation Viewer</title>
-	<link rel="stylesheet" type="text/css" href="css/mobile.css">
-	<link rel="stylesheet" type="text/css" href="css/desktop.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/desktop.css">
 </head>
 <body>
 
 	<div class="a-panel">
 
 		<div class="a-panel-box">
+
+			<div class="a-panel-upload">
+				<div class="a-panel-upload-box">
+					<label for="imageUpload">Choose Image</label>
+					<input type="file" accept="image/*" multiple>
+					<div class="a-image-preview"></div>
+				</div>
+			</div>
 
 			<div class="a-panel-view">
 				<div class="a-panel-view-image" id="a-panel-view-image"></div>
